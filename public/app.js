@@ -64,7 +64,11 @@ $(document).on("click", "#savenote", function() {
       console.log(data);
       // Empty the notes section
       $("#notes").empty();
-    });
+    }); 
+
+  $("#scrapeButton").on("click", function(){
+  console.log("scrapeButton")
+});
 
   // Also, remove the values entered in the input and textarea for note entry
   $("#titleinput").val("");
